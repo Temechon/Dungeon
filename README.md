@@ -5,4 +5,4 @@ A Babylon.js demo scene
 
 [Test it here](http://pixelcodr.com/games/dungeon/index.html)
 
-A small test to test WebAudio API integration in Babylon.js
+A small demo scene to test WebAudio API integration in Babylon.js
