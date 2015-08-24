@@ -132,13 +132,13 @@ Dungeon.prototype.initShadows = function() {
 };
 
 Dungeon.prototype.initCollisions = function() {
-    this.scene.gravity = new BABYLON.Vector3(0, -9.81, 0);
+    //this.scene.gravity = new BABYLON.Vector3(0, -9.81, 0);
     this.scene.collisionsEnabled = true;
 
-    var cam = this.scene.activeCamera;
-    cam.applyGravity = true;
-    cam.ellipsoid = new BABYLON.Vector3(1, 2, 1);
-    cam.checkCollisions = true;
+    //var cam = this.scene.activeCamera;
+    //cam.applyGravity = true;
+    //cam.ellipsoid = new BABYLON.Vector3(1, 2, 1);
+    //cam.checkCollisions = true;
 
     this.scene.meshes.forEach(function(mesh) {
         if (mesh.name.indexOf("collider") != -1) {
